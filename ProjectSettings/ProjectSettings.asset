@@ -690,8 +690,9 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Standalone: TMP_PRESENT;USE_PHYSICS2D
-    WebGL: TMP_PRESENT;USE_PHYSICS2D
+    Android: USE_PHYSICS2D
+    Standalone: TMP_PRESENT;USE_PHYSICS2D;USE_PHYSICS2D
+    WebGL: TMP_PRESENT;USE_PHYSICS2D;USE_PHYSICS2D
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
@@ -796,7 +797,7 @@ PlayerSettings:
   hmiLogStartupTiming: 0
   hmiCpuConfiguration: 
   apiCompatibilityLevel: 6
-  activeInputHandler: 0
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0

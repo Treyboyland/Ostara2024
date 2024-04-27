@@ -38,6 +38,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 1279192167
+    locked: 0
+  - name: Garden
+    uniqueID: 3428453701
+    locked: 0
+  - name: Mansion
+    uniqueID: 3619791547
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: NPC
+    uniqueID: 4221747555
+    locked: 0
+  - name: Mansion Roof
+    uniqueID: 1453329599
     locked: 0
