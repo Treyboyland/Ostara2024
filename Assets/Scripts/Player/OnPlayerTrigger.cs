@@ -14,7 +14,7 @@ public class OnPlayerTrigger : MonoBehaviour
     /// <param name="other">The other Collider2D involved in this collision.</param>
     void OnTriggerEnter2D(Collider2D other)
     {
-        var player = other.GetComponent<Player>();
+        var player = other.gameObject.GetComponent<Player>();
         if (player)
         {
             OnTrigger.Invoke();
