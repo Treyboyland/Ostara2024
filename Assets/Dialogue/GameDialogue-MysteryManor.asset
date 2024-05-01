@@ -299,7 +299,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Butler/b1)
         type: 0
         typeString: 
       conversationID: 1
@@ -470,7 +470,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Butler/b3)
         type: 0
         typeString: 
       conversationID: 1
@@ -494,8 +494,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 526.60944
-        y: 236.9349
+        x: 528.3486
+        y: 236.06534
         width: 160
         height: 30
     - id: 5
@@ -525,7 +525,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: AudioWait(Butler/b2)
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 1
@@ -788,7 +788,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Butler/b4)
         type: 0
         typeString: 
       conversationID: 2
@@ -959,7 +959,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: SetVariable(IntroWithButler, true)
+        value: AudioWait(Butler/b5)
         type: 0
         typeString: 
       conversationID: 2
@@ -971,13 +971,13 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: Variable["IntroWithButler"] = true
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 48
+        x: 49.098892
         y: 172.66666
         width: 160
         height: 30
@@ -1009,7 +1009,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Butler/b6)
         type: 0
         typeString: 
       conversationID: 2
@@ -1065,7 +1065,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Butler/b7)
         type: 0
         typeString: 
       conversationID: 2
@@ -1243,7 +1243,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Butler/b8)
         type: 0
         typeString: 
       conversationID: 2
@@ -1293,7 +1293,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Butler/b9)
         type: 0
         typeString: 
       conversationID: 2
