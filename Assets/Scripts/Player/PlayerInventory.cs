@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using PixelCrushers.DialogueSystem;
 using UnityEngine;
 
 public class PlayerInventory : MonoBehaviour
@@ -37,5 +38,28 @@ public class PlayerInventory : MonoBehaviour
     public bool HasItem(ItemSO item)
     {
         return inventory.ContainsKey(item) && inventory[item] > 0;
+    }
+
+    public bool HasItem(ItemAndCount itemAndCount)
+    {
+        return inventory.ContainsKey(itemAndCount.Item) && inventory[itemAndCount.Item] >= itemAndCount.Count;
+    }
+
+    public bool HasItem(ItemSO item, int count)
+    {
+        return inventory.ContainsKey(item) && inventory[item] >= count;
+    }
+
+    public void RemoveItem(ItemSO item)
+    {
+        RemoveItem(item, 1);
+    }
+
+    public void RemoveItem(ItemSO item, int count)
+    {
+        if (inventory.ContainsKey(item) && inventory[item] >= count)
+        {
+            inventory[item] -= count;
+        }
     }
 }

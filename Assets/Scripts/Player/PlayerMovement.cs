@@ -43,6 +43,10 @@ public class PlayerMovement : MonoBehaviour
             }
             Move();
         }
+        else
+        {
+            body.velocity = new Vector2();
+        }
     }
 
     void Move()

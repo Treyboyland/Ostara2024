@@ -26,9 +26,9 @@ public class GameEvent : ScriptableObject
 
     public void Invoke()
     {
-        foreach(var listener in listeners)
+        foreach (var listener in listeners)
         {
-            if(listener != null)
+            if (listener != null)
             {
                 listener.OnEventHit.Invoke();
             }

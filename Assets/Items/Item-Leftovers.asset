@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e295b0e801332014aa2791fdc3be0857, type: 3}
   m_Name: Item-Leftovers
   m_EditorClassIdentifier: 
-  itemName: 
+  itemName: Leftovers

@@ -326,7 +326,19 @@ MonoBehaviour:
       userScript: 
       onExecute:
         m_PersistentCalls:
-          m_Calls: []
+          m_Calls:
+          - m_Target: {fileID: 11400000, guid: 0ac70d6da156eb446851b5faa4fb8fa9, type: 2}
+            m_TargetAssemblyTypeName: GameEventGeneric`1[[System.Boolean, mscorlib
+            m_MethodName: Invoke
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
       canvasRect:
         serializedVersion: 2
         x: 523.8697
@@ -595,11 +607,23 @@ MonoBehaviour:
       userScript: 
       onExecute:
         m_PersistentCalls:
-          m_Calls: []
+          m_Calls:
+          - m_Target: {fileID: 11400000, guid: 0ac70d6da156eb446851b5faa4fb8fa9, type: 2}
+            m_TargetAssemblyTypeName: GameEventGeneric`1[[System.Boolean, mscorlib
+            m_MethodName: Invoke
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
       canvasRect:
         serializedVersion: 2
         x: 741.6778
-        y: 285.56506
+        y: 283.82593
         width: 160
         height: 30
     - id: 7
@@ -644,7 +668,19 @@ MonoBehaviour:
       userScript: 
       onExecute:
         m_PersistentCalls:
-          m_Calls: []
+          m_Calls:
+          - m_Target: {fileID: 11400000, guid: 0ac70d6da156eb446851b5faa4fb8fa9, type: 2}
+            m_TargetAssemblyTypeName: GameEventGeneric`1[[System.Boolean, mscorlib
+            m_MethodName: Invoke
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
       canvasRect:
         serializedVersion: 2
         x: 526.60944
@@ -815,7 +851,19 @@ MonoBehaviour:
       userScript: 
       onExecute:
         m_PersistentCalls:
-          m_Calls: []
+          m_Calls:
+          - m_Target: {fileID: 11400000, guid: 0ac70d6da156eb446851b5faa4fb8fa9, type: 2}
+            m_TargetAssemblyTypeName: GameEventGeneric`1[[System.Boolean, mscorlib
+            m_MethodName: Invoke
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
       canvasRect:
         serializedVersion: 2
         x: 120
@@ -969,7 +1017,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 4
+        destinationConversationID: 2
+        destinationDialogueID: 11
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: Variable["IntroWithButler"] = true
       onExecute:
@@ -1098,7 +1152,19 @@ MonoBehaviour:
       userScript: 
       onExecute:
         m_PersistentCalls:
-          m_Calls: []
+          m_Calls:
+          - m_Target: {fileID: 11400000, guid: 0ac70d6da156eb446851b5faa4fb8fa9, type: 2}
+            m_TargetAssemblyTypeName: GameEventGeneric`1[[System.Boolean, mscorlib
+            m_MethodName: Invoke
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
       canvasRect:
         serializedVersion: 2
         x: 480
@@ -1253,7 +1319,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 9
+        destinationConversationID: 2
+        destinationDialogueID: 11
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -1303,7 +1375,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 10
+        destinationConversationID: 2
+        destinationDialogueID: 11
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -1357,11 +1435,23 @@ MonoBehaviour:
       userScript: 
       onExecute:
         m_PersistentCalls:
-          m_Calls: []
+          m_Calls:
+          - m_Target: {fileID: 11400000, guid: 0ac70d6da156eb446851b5faa4fb8fa9, type: 2}
+            m_TargetAssemblyTypeName: GameEventGeneric`1[[System.Boolean, mscorlib
+            m_MethodName: Invoke
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
       canvasRect:
         serializedVersion: 2
-        x: 745.0406
-        y: 120.81302
+        x: 421.96365
+        y: 403.2306
         width: 160
         height: 30
     - id: 12
@@ -1551,7 +1641,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Matriarch/M1)
         type: 0
         typeString: 
       conversationID: 3
@@ -1584,7 +1674,19 @@ MonoBehaviour:
       userScript: 
       onExecute:
         m_PersistentCalls:
-          m_Calls: []
+          m_Calls:
+          - m_Target: {fileID: 11400000, guid: 0ac70d6da156eb446851b5faa4fb8fa9, type: 2}
+            m_TargetAssemblyTypeName: GameEventGeneric`1[[System.Boolean, mscorlib
+            m_MethodName: Invoke
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
       canvasRect:
         serializedVersion: 2
         x: 210
@@ -1784,7 +1886,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Matriarch/M2)
         type: 0
         typeString: 
       conversationID: 3
@@ -1794,7 +1896,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 5
+        destinationConversationID: 3
+        destinationDialogueID: 8
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -1834,7 +1942,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Matriarch/M3)
         type: 0
         typeString: 
       conversationID: 3
@@ -1844,7 +1952,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 6
+        destinationConversationID: 3
+        destinationDialogueID: 8
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -1883,6 +1997,61 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
+        value: AudioWait(Matriarch/M4)
+        type: 0
+        typeString: 
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 3
+        originDialogueID: 7
+        destinationConversationID: 3
+        destinationDialogueID: 8
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 388.6667
+        y: 168
+        width: 160
+        height: 30
+    - id: 8
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: End
+        type: 0
+        typeString: 
+      - title: Sequence
         value: 
         type: 0
         typeString: 
@@ -1898,11 +2067,23 @@ MonoBehaviour:
       userScript: 
       onExecute:
         m_PersistentCalls:
-          m_Calls: []
+          m_Calls:
+          - m_Target: {fileID: 11400000, guid: 0ac70d6da156eb446851b5faa4fb8fa9, type: 2}
+            m_TargetAssemblyTypeName: GameEventGeneric`1[[System.Boolean, mscorlib
+            m_MethodName: Invoke
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
       canvasRect:
         serializedVersion: 2
-        x: 388.6667
-        y: 168
+        x: 209
+        y: 248
         width: 160
         height: 30
     entryGroups: []
@@ -2037,7 +2218,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Notes/N1)
         type: 0
         typeString: 
       conversationID: 4
@@ -2058,7 +2239,19 @@ MonoBehaviour:
       userScript: 
       onExecute:
         m_PersistentCalls:
-          m_Calls: []
+          m_Calls:
+          - m_Target: {fileID: 11400000, guid: 0ac70d6da156eb446851b5faa4fb8fa9, type: 2}
+            m_TargetAssemblyTypeName: GameEventGeneric`1[[System.Boolean, mscorlib
+            m_MethodName: Invoke
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
       canvasRect:
         serializedVersion: 2
         x: 160
@@ -2148,7 +2341,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Notes/N2)
         type: 0
         typeString: 
       conversationID: 4
@@ -2260,7 +2453,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Notes/N3)
         type: 0
         typeString: 
       conversationID: 4
@@ -2371,7 +2564,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Notes/N4)
         type: 0
         typeString: 
       conversationID: 4
@@ -2441,7 +2634,19 @@ MonoBehaviour:
       userScript: 
       onExecute:
         m_PersistentCalls:
-          m_Calls: []
+          m_Calls:
+          - m_Target: {fileID: 11400000, guid: 0ac70d6da156eb446851b5faa4fb8fa9, type: 2}
+            m_TargetAssemblyTypeName: GameEventGeneric`1[[System.Boolean, mscorlib
+            m_MethodName: Invoke
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
       canvasRect:
         serializedVersion: 2
         x: 153.33333
@@ -2449,7 +2654,7 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 18.40001}
+    canvasScrollPosition: {x: 0, y: 0}
     canvasZoom: 1
   - id: 5
     fields:
@@ -2581,7 +2786,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Notes/N5)
         type: 0
         typeString: 
       conversationID: 5
@@ -2602,11 +2807,23 @@ MonoBehaviour:
       userScript: 
       onExecute:
         m_PersistentCalls:
-          m_Calls: []
+          m_Calls:
+          - m_Target: {fileID: 11400000, guid: 0ac70d6da156eb446851b5faa4fb8fa9, type: 2}
+            m_TargetAssemblyTypeName: GameEventGeneric`1[[System.Boolean, mscorlib
+            m_MethodName: Invoke
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
       canvasRect:
         serializedVersion: 2
         x: 160
-        y: 80
+        y: 79
         width: 160
         height: 30
     - id: 2
@@ -2693,7 +2910,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Notes/N6)
         type: 0
         typeString: 
       conversationID: 5
@@ -2804,7 +3021,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Notes/N7)
         type: 0
         typeString: 
       conversationID: 5
@@ -2874,7 +3091,19 @@ MonoBehaviour:
       userScript: 
       onExecute:
         m_PersistentCalls:
-          m_Calls: []
+          m_Calls:
+          - m_Target: {fileID: 11400000, guid: 0ac70d6da156eb446851b5faa4fb8fa9, type: 2}
+            m_TargetAssemblyTypeName: GameEventGeneric`1[[System.Boolean, mscorlib
+            m_MethodName: Invoke
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
       canvasRect:
         serializedVersion: 2
         x: 160
@@ -3013,7 +3242,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Notes/N8)
         type: 0
         typeString: 
       conversationID: 6
@@ -3034,11 +3263,23 @@ MonoBehaviour:
       userScript: 
       onExecute:
         m_PersistentCalls:
-          m_Calls: []
+          m_Calls:
+          - m_Target: {fileID: 11400000, guid: 0ac70d6da156eb446851b5faa4fb8fa9, type: 2}
+            m_TargetAssemblyTypeName: GameEventGeneric`1[[System.Boolean, mscorlib
+            m_MethodName: Invoke
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
       canvasRect:
         serializedVersion: 2
         x: 160
-        y: 80
+        y: 81.09891
         width: 160
         height: 30
     - id: 2
@@ -3126,7 +3367,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Notes/N9)
         type: 0
         typeString: 
       conversationID: 6
@@ -3239,7 +3480,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Notes/N10)
         type: 0
         typeString: 
       conversationID: 6
@@ -3352,7 +3593,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Notes/N11)
         type: 0
         typeString: 
       conversationID: 6
@@ -3376,7 +3617,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 160
+        x: 162.19781
         y: 380
         width: 160
         height: 30
@@ -3422,7 +3663,19 @@ MonoBehaviour:
       userScript: 
       onExecute:
         m_PersistentCalls:
-          m_Calls: []
+          m_Calls:
+          - m_Target: {fileID: 11400000, guid: 0ac70d6da156eb446851b5faa4fb8fa9, type: 2}
+            m_TargetAssemblyTypeName: GameEventGeneric`1[[System.Boolean, mscorlib
+            m_MethodName: Invoke
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
       canvasRect:
         serializedVersion: 2
         x: 160
@@ -3556,12 +3809,12 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "The Butler has left notes on how the Matriarch enjoys her tea. She
-          apparently has her leaves specially imported from some far off jungle.\r"
+        value: "The Butler has left some notes on how the Matriarch enjoys her tea.
+          She apparently has her leaves specially imported from some far off jungle.\r"
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Notes/N12)
         type: 0
         typeString: 
       conversationID: 7
@@ -3582,10 +3835,22 @@ MonoBehaviour:
       userScript: 
       onExecute:
         m_PersistentCalls:
-          m_Calls: []
+          m_Calls:
+          - m_Target: {fileID: 11400000, guid: 0ac70d6da156eb446851b5faa4fb8fa9, type: 2}
+            m_TargetAssemblyTypeName: GameEventGeneric`1[[System.Boolean, mscorlib
+            m_MethodName: Invoke
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
       canvasRect:
         serializedVersion: 2
-        x: 160
+        x: 162.12767
         y: 80
         width: 160
         height: 30
@@ -3672,7 +3937,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Notes/N13)
         type: 0
         typeString: 
       conversationID: 7
@@ -3784,7 +4049,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Notes/N14)
         type: 0
         typeString: 
       conversationID: 7
@@ -3808,8 +4073,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 162
-        y: 280.66666
+        x: 163.06383
+        y: 279.6028
         width: 160
         height: 30
     - id: 6
@@ -3896,7 +4161,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Notes/N15)
         type: 0
         typeString: 
       conversationID: 7
@@ -3921,7 +4186,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 160
-        y: 380
+        y: 378.9362
         width: 160
         height: 30
     - id: 8
@@ -3966,7 +4231,19 @@ MonoBehaviour:
       userScript: 
       onExecute:
         m_PersistentCalls:
-          m_Calls: []
+          m_Calls:
+          - m_Target: {fileID: 11400000, guid: 0ac70d6da156eb446851b5faa4fb8fa9, type: 2}
+            m_TargetAssemblyTypeName: GameEventGeneric`1[[System.Boolean, mscorlib
+            m_MethodName: Invoke
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
       canvasRect:
         serializedVersion: 2
         x: 160
@@ -3974,8 +4251,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 24.524895, y: 80.25633}
-    canvasZoom: 0.97
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.94000006
   - id: 8
     fields:
     - title: Title
@@ -4105,7 +4382,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Notes/N16)
         type: 0
         typeString: 
       conversationID: 8
@@ -4126,7 +4403,19 @@ MonoBehaviour:
       userScript: 
       onExecute:
         m_PersistentCalls:
-          m_Calls: []
+          m_Calls:
+          - m_Target: {fileID: 11400000, guid: 0ac70d6da156eb446851b5faa4fb8fa9, type: 2}
+            m_TargetAssemblyTypeName: GameEventGeneric`1[[System.Boolean, mscorlib
+            m_MethodName: Invoke
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
       canvasRect:
         serializedVersion: 2
         x: 30
@@ -4217,7 +4506,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Notes/N17)
         type: 0
         typeString: 
       conversationID: 8
@@ -4241,7 +4530,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
+        x: 28.823524
         y: 170
         width: 160
         height: 30
@@ -4329,7 +4618,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: AudioWait(Notes/N18)
         type: 0
         typeString: 
       conversationID: 8
@@ -4353,7 +4642,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 30
+        x: 32.352936
         y: 270
         width: 160
         height: 30
@@ -4399,7 +4688,19 @@ MonoBehaviour:
       userScript: 
       onExecute:
         m_PersistentCalls:
-          m_Calls: []
+          m_Calls:
+          - m_Target: {fileID: 11400000, guid: 0ac70d6da156eb446851b5faa4fb8fa9, type: 2}
+            m_TargetAssemblyTypeName: GameEventGeneric`1[[System.Boolean, mscorlib
+            m_MethodName: Invoke
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
       canvasRect:
         serializedVersion: 2
         x: 30

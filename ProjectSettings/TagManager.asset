@@ -53,6 +53,15 @@ TagManager:
   - name: NPC
     uniqueID: 4221747555
     locked: 0
+  - name: Static Items
+    uniqueID: 1205801801
+    locked: 0
+  - name: Door
+    uniqueID: 1865810827
+    locked: 0
   - name: Mansion Roof
     uniqueID: 1453329599
+    locked: 0
+  - name: Blocker
+    uniqueID: 2880448709
     locked: 0
